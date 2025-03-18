@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    background-image: linear-gradient(to right, #0067A4,  #073E65, #0A3254);
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.logoTransparente {
+    width: 120px;
+    height: 60px;
+    margin: 5px 0 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.direita {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.direita:hover {
+    cursor: pointer;
+}
+
+.versao {
+    color: rgb(151, 152, 155);
+    opacity: 0.6;
+}
+
+.sino {
+    padding-right: 5px;
+    color: rgb(151, 152, 155);
+    border-right: 1px solid rgb(151, 152, 155);
+}
+
+.siglaUsuario {
+    padding: 8px;
+    color: #073E65;
+    background-color: white;
+    font-weight: 800;
+    border-radius: 20px;
+}
+
+.usuario {
+    color: white;
+    font-weight:800;
+}
+
+.administrador {
+    background-image: linear-gradient(to right, #0067A4,  #073E65, #0A3254);
+    display: block;
+    width: fit-content;
+    margin: 5px 5px 5px auto;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+.administrador:hover {
+    cursor: pointer;
+
+}
+
+.romiPulse {
+    align-items: center;
+    text-align: center
+}
+
+.menu {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menuDescricao {
+    width: 300px;
+    height: 115px;
+    margin: 15px 15px 15px 15px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgb(192, 189, 189) 0px 0px 7px
+}
+
+.menuDescricao p {
+    padding-top: 10px;
+    font-weight: 600;
+ 
+}
+
+.menuDescricao:hover {
+    cursor: pointer;
+    box-shadow: rgb(192, 189, 189) 0px 0px 12px;
+}
+
+.imgFabrica {
+    background-image: linear-gradient(to right, #0067A4,  #073E65, #0A3254);
+    padding-top: 10px;
+}
+
+.imgLocacao {
+    background-image: linear-gradient(to right, #03A16C, #057B63, #076D5F, #093C51);
+    padding-top: 10px;
+}
+
+.imgInstalador {
+    background-image: linear-gradient(to right, #511F78, #3F236D, #28285E, #102C51);
+    padding-top: 10px;
+}
